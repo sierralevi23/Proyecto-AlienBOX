@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contruye tu PC</title>
+    <link rel="stylesheet" href="CSS/construir.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="img/cabeza-alienigena.png" alt="cabeza-alienigena" height="40" width="40" >Alien BOX</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="compra.html">Compras</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="build-pc-section">
+            <h2>Crear tu Computadora</h2>
+            <form class="build-pc-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="cpu">Procesador (CPU)</label>
+                    <select id="cpu" name="cpu">
+                        <option value="amd_ryzen_3">AMD Ryzen 3 4100 - $120</option>
+                        <option value="intel_i3">Intel i3 12100f - $150</option>
+                        <option value="amd_ryzen_5">AMD Ryzen 5 5600x - $180</option>
+                        <option value="intel_i5">Intel i5 12400f - $200</option>
+                        <option value="amd_ryzen_7">AMD Ryzen 7 5800x - $250</option>
+                        <option value="amd_ryzen_5_7600x">AMD Ryzen 5 7600X - $300</option>
+                        <option value="intel_i7">Intel i7 12700f - $300</option>
+                        <option value="intel_i5_13600k">Intel i5 13600K - $320</option>
+                        <option value="amd_ryzen_7_7700x">AMD Ryzen 7 7700X - $400</option>
+                        <option value="intel_i7_13700k">Intel i7 13700K - $450</option>
+                        <option value="amd_ryzen_9">AMD Ryzen 9 5950X - $550</option>
+                        <option value="intel_i9">Intel i9 12900K - $550</option>
+                        <option value="amd_ryzen_9_7950x">AMD Ryzen 9 7950X - $600</option>
+                        <option value="intel_i9_13900k">Intel i9 13900K - $600</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="cpucooler">CPU Coolers</label>
+                    <select id="cpucooler" name="cpucooler">
+                        <option value="cooler_master_hyper_212">Cooler Master Hyper 212 EVO - $35</option>
+                        <option value="deepcool_gammaxx_gt">Deepcool GAMMAXX GT - $40</option>
+                        <option value="scythe_mugen_5">Scythe Mugen 5 Rev.B - $50</option>
+                        <option value="arctic_freezer_34_esports_duo">Arctic Freezer 34 eSports DUO - $55</option>
+                        <option value="cryorig_h7_quad_lumi">CRYORIG H7 Quad Lumi - $60</option>
+                        <option value="noctua_nh_u12s">Noctua NH-U12S - $70</option>
+                        <option value="be_quiet_dark_rock_4">be quiet! Dark Rock 4 - $75</option>
+                        <option value="nzxt_kraken_x53">NZXT Kraken X53 - $130</option>
+                        <option value="corsair_h100i_rgb_platinum">Corsair H100i RGB Platinum - $160</option>
+                        <option value="thermaltake_floe_riing_rgb_360">Thermaltake Floe Riing RGB 360 TT Premium Edition - $200</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mother">Placa base (Motherboard)</label>
+                    <select id="mother" name="mother">
+                        <option value="asus_prime_b450m">ASUS Prime B450M-A II - $80</option>
+                        <option value="msi_b550m_pro">MSI B550M PRO-VDH WIFI - $110</option>
+                        <option value="gigabyte_b560m">Gigabyte B560M DS3H - $100</option>
+                        <option value="asrock_b660m">ASRock B660M Pro RS - $130</option>
+                        <option value="asus_tuf_b660m">ASUS TUF Gaming B660M-PLUS WiFi D4 - $170</option>
+                        <option value="msi_mag_b660m">MSI MAG B660M Mortar WiFi DDR4 - $160</option>
+                        <option value="gigabyte_x570">Gigabyte X570 AORUS Elite - $200</option>
+                        <option value="asus_rog_b550">ASUS ROG Strix B550-F Gaming - $190</option>
+                        <option value="msi_mpg_z690">MSI MPG Z690 Edge WiFi DDR4 - $270</option>
+                        <option value="asrock_x670e">ASRock X670E Steel Legend - $280</option>
+                        <option value="asus_rog_x670e">ASUS ROG Strix X670E-E Gaming WiFi - $450</option>
+                        <option value="gigabyte_z790">Gigabyte Z790 AORUS Elite AX - $340</option>
+                        <option value="msi_meg_z690">MSI MEG Z690 UNIFY - $500</option>
+                        <option value="asrock_z790_taichi">ASRock Z790 Taichi - $520</option>
+                        <option value="asus_rog_maximus_z790">ASUS ROG Maximus Z790 Hero - $630</option>
+                        <option value="gigabyte_x670e_aorus">Gigabyte X670E AORUS MASTER - $500</option>
+                        <option value="msi_meg_x670e">MSI MEG X670E ACE - $700</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gpu">Tarjeta Gráfica (GPU)</label>
+                    <select id="gpu" name="gpu">
+                        <option value="nvidia_gtx_1660">NVIDIA GTX 1660 - $220</option>
+                        <option value="amd_rx_6600">AMD RX 6600 - $250</option>
+                        <option value="amd_rx_7600">AMD RX 7600 - $270</option>
+                        <option value="nvidia_rtx_3060">NVIDIA RTX 3060 - $300</option>
+                        <option value="amd_rx_5700">AMD RX 5700 - $300</option>
+                        <option value="nvidia_rtx_4060">NVIDIA RTX 4060 - $350</option>
+                        <option value="amd_rx_6700_xt">AMD RX 6700 XT - $450</option>
+                        <option value="amd_rx_7700_xt">AMD RX 7700 XT - $450</option>
+                        <option value="nvidia_rtx_3070">NVIDIA RTX 3070 - $500</option>
+                        <option value="amd_rx_6800">AMD RX 6800 - $500</option>
+                        <option value="nvidia_rtx_4070">NVIDIA RTX 4070 - $600</option>
+                        <option value="nvidia_rtx_3080">NVIDIA RTX 3080 - $700</option>
+                        <option value="amd_rx_6900_xt">AMD RX 6900 XT - $700</option>
+                        <option value="amd_rx_7900_xt">AMD RX 7900 XT - $900</option>
+                        <option value="nvidia_rtx_4080">NVIDIA RTX 4080 - $1200</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ram">Memoria RAM</label>
+                    <select id="ram" name="ram">
+                        <option value="8gb_2666mhz_crucial">Crucial 8GB (1x8GB) 2666MHz - $40</option>
+                        <option value="16gb_3200mhz_corsair">Corsair Vengeance 16GB (2x8GB) 3200MHz - $80</option>
+                        <option value="16gb_3600mhz_crucial">Crucial Ballistix 16GB (2x8GB) 3600MHz - $90</option>
+                        <option value="16gb_4000mhz_patriot">Patriot Viper Steel 16GB (2x8GB) 4000MHz - $110</option>
+                        <option value="32gb_3200mhz_kingston">Kingston HyperX Fury 32GB (2x16GB) 3200MHz - $140</option>
+                        <option value="32gb_3600mhz_gskill">G.Skill Ripjaws V 32GB (2x16GB) 3600MHz - $150</option>
+                        <option value="32gb_3600mhz_corsair">Corsair Vengeance RGB Pro 32GB (4x8GB) 3600MHz - $180</option>
+                        <option value="64gb_3600mhz_teamgroup">Team Group T-Force Delta RGB 64GB (2x32GB) 3600MHz - $250</option>
+                        <option value="64gb_3200mhz_gskill">G.Skill Trident Z Neo 64GB (4x16GB) 3200MHz - $280</option>
+                        <option value="128gb_3600mhz_corsair">Corsair Dominator Platinum RGB 128GB (4x32GB) 3600MHz - $600</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="storage">Almacenamiento</label>
+                    <select id="storage" name="storage">
+                        <option value="ssd_256gb">SSD Kingston 256GB (550 MB/s) - $30</option>
+                        <option value="hdd_1tb">HDD Kingston 1TB (150 MB/s) - $35</option>
+                        <option value="m2_256gb">M.2 NVMe Kingston A2000 256GB (2200 MB/s) - $40</option>
+                        <option value="hdd_2tb">HDD Seagate Barracuda 2TB (190 MB/s) - $55</option>
+                        <option value="ssd_512gb">SSD Kingston 512GB (550 MB/s) - $55</option>
+                        <option value="m2_500gb">M.2 NVMe Western Digital Blue SN550 500GB (2400 MB/s) - $65</option>
+                        <option value="nvme_500gb">NVMe Samsung 970 EVO 500GB (3500 MB/s) - $80</option>
+                        <option value="hdd_4tb">HDD Western Digital Blue 4TB (180 MB/s) - $90</option>
+                        <option value="ssd_1tb">SSD Kingston 1TB (550 MB/s) - $100</option>
+                        <option value="m2_1tb">M.2 NVMe Crucial P2 1TB (2400 MB/s) - $110</option>
+                        <option value="nvme_1tb">NVMe Samsung 970 EVO 1TB (3500 MB/s) - $130</option>
+                        <option value="ssd_2tb">SSD Crucial MX500 2TB (560 MB/s) - $180</option>
+                        <option value="m2_2tb">M.2 NVMe Sabrent Rocket Q 2TB (3200 MB/s) - $200</option>
+                        <option value="nvme_2tb">NVMe WD Black SN750 2TB (3400 MB/s) - $250</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="psu">Fuente de Poder (PSU)</label>
+                    <select id="psu" name="psu">
+                        <option value="psu_500w">EVGA 500W 80+ Bronze - $50</option>
+                        <option value="psu_600w">Corsair CX600 600W 80+ Bronze - $70</option>
+                        <option value="psu_600w_2">EVGA 600 BQ 600W 80+ Bronze - $75</option>
+                        <option value="psu_600w_3">Cooler Master MWE 600W 80+ Bronze - $80</option>
+                        <option value="psu_700w_2">Thermaltake Smart Pro RGB 700W 80+ Bronze - $100</option>
+                        <option value="psu_700w_3">Cooler Master MWE Gold 700W 80+ Gold - $110</option>
+                        <option value="psu_650w_3">be quiet! Pure Power 11 650W 80+ Gold - $110</option>
+                        <option value="psu_650w_2">Corsair RM650 650W 80+ Gold - $120</option>
+                        <option value="psu_650w">Gigabyte 650W 80+ Gold - $130</option>
+                        <option value="psu_750w_3">EVGA SuperNOVA G3 750W 80+ Gold - $130</option>
+                        <option value="psu_700w">EVGA SuperNOVA 700W 80+ Gold - $140</option>
+                        <option value="psu_750w_2">Corsair RMx 750W 80+ Gold - $140</option>
+                        <option value="psu_750w">Seasonic FOCUS 750W 80+ Gold - $150</option>
+                        <option value="psu_800w">Thermaltake Toughpower GF1 800W 80+ Gold - $160</option>
+                        <option value="psu_850w">be quiet! Straight Power 11 850W 80+ Platinum - $180</option>
+                        <option value="psu_1000w">Corsair RM1000x 1000W 80+ Gold - $220</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="case">Gabinete</label>
+                    <select id="case" name="case">
+                        <option value="case_phanteks_p300a">Phanteks Eclipse P300A ATX Mid Tower - $60</option>
+                        <option value="case_nzxt_h510">NZXT H510 ATX Mid Tower - $70</option>
+                        <option value="case_cooler_master_nr600">Cooler Master MasterBox NR600 ATX Mid Tower - $70</option>
+                        <option value="case_corsair_275r">Corsair 275R Airflow ATX Mid Tower - $80</option>
+                        <option value="case_fractal_meshify_c">Fractal Design Meshify C ATX Mid Tower - $90</option>
+                        <option value="case_phanteks_p400a">Phanteks Eclipse P400A Digital ATX Mid Tower - $90</option>
+                        <option value="case_corsair_4000d_airflow">Corsair 4000D Airflow ATX Mid Tower - $95</option>
+                        <option value="case_lian_li_lancool_ii">Lian Li Lancool II Mesh ATX Mid Tower - $100</option>
+                        <option value="case_be_quiet_pure_base_500dx">be quiet! Pure Base 500DX ATX Mid Tower - $110</option>
+                        <option value="case_lian_li_o11_dynamic">Lian Li PC-O11 Dynamic ATX Full Tower - $150</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Crear mi PC</button>
+            </form>
+        </section>
+    </main>
+    <script src="JS/construir.js"></script>
+</body>
+</html>

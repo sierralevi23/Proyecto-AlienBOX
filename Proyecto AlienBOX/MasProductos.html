@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Productos</title>
+    <link rel="stylesheet" href="CSS/MasProductos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="img/cabeza-alienigena.png" alt="cabeza-alienigena" height="40" width="40" >Alien BOX</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contruir.html">Construye tu PC</a></li>
+                <li><a href="compra.html">Compras</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Agregar Nuevos Productos</h1>
+        <form id="productForm">
+            <label for="productName">Nombre del producto:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productCategory">Categoría:</label>
+            <select id="productCategory" required>
+                <option value="">Selecciona una categoría</option>
+                <option value="Procesador">Procesador</option>
+                <option value="Placa de Video">Placa de Video</option>
+                <option value="Memoria RAM">Memoria RAM</option>
+                <option value="Disco Duro">Disco Duro</option>
+                <option value="Fuente de Poder">Fuente de Poder</option>
+            </select>
+
+            <label for="productPrice">Precio:</label>
+            <input type="number" id="productPrice" min="0" required>
+
+            <label for="productShortDesc">Descripción breve:</label>
+            <input type="text" id="productShortDesc" maxlength="100" required>
+
+            <label for="productLongDesc">Descripción larga:</label>
+            <textarea id="productLongDesc" rows="4" required></textarea>
+
+            <label for="productImage">Imagen del producto:</label>
+            <input type="file" id="productImage" accept="image/*" required>
+
+            <button type="submit">Agregar Producto</button>
+        </form>
+
+        <h2>Lista de Productos</h2>
+        <ul id="productList"></ul>
+    </div>
+    <script src="JS/masproductos.js"></script>
+</body>
+</html>

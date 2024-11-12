@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="CSS/compra.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="logo"><img src="img/cabeza-alienigena.png" alt="cabeza-alienigena" height="40" width="40" >Alien BOX</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contruir.html">Construye tu PC</a></li>
+            <li><a href="compra.html">Compras</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="purchase-section">
+            <div class="purchase-container">
+                <div class="product-summary">
+                    <h3>Resumen del Producto</h3>
+                    <img src="" alt="Producto">
+                    <p></p>
+                    <p class="price"></p>
+                    <h3>Resumen de Componentes</h3>
+                <div id="cart-items" class="cart-items">
+                    <!-- Los componentes seleccionados se van a mostrar aca -->
+                </div>
+                <h3>Total</h3>
+                <p id="total">$0.00</p>
+                <!-- El formulario para detalles de envío y pago se queda igual -->
+            </div>
+            
+                </div>
+                <form class="purchase-form" action="#" method="post">
+                    <h3>Detalles de Envío</h3>
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" id="direccion" name="direccion" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" id="ciudad" name="ciudad" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="codigo-postal">Código Postal</label>
+                        <input type="text" id="codigo-postal" name="codigo-postal" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pais">País</label>
+                        <input type="text" id="pais" name="pais" required>
+                    </div>
+                    <h3>Detalles de Pago</h3>
+                    <div class="form-group">
+                        <label for="numero-tarjeta">Número de Tarjeta</label>
+                        <input type="text" id="numero-tarjeta" name="numero-tarjeta" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre-tarjeta">Nombre en la Tarjeta</label>
+                        <input type="text" id="nombre-tarjeta" name="nombre-tarjeta" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fecha-expiracion">Fecha de Expiración</label>
+                        <input type="text" id="fecha-expiracion" name="fecha-expiracion" placeholder="MM/AA" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" required>
+                    </div>
+                    <button type="submit" class="btn">Realizar Compra</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="JS/compra.js"></script>
+</body>
+</html>
